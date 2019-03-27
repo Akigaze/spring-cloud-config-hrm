@@ -1,9 +1,7 @@
 server:
-  port: 7001
+  port: 7002
 
 spring:
-  application:
-    name: employee-service
   datasource:
     url: jdbc:mysql://localhost:3306/hrm-admin
 #    url: jdbc:mysql://192.168.217.128:3306/hrm-admin
