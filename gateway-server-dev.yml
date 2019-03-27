@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    employee-service: /gateway/employee/**
+    department-service: /gateway/department/**
+  sensitive-headers:
+  ignored-patterns: /*-service/**
